@@ -12,9 +12,7 @@ export default function TreeNode({ node, level = 0 }) {
 
   const [isActive, setIsActive] = useState(false);
 
-  const onActiveToggle = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
+  const onActiveToggle = () => {
     setIsActive(!isActive);
   };
 
