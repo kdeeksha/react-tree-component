@@ -1,0 +1,16 @@
+.treeContainer{
+  padding: 1rem;
+}
+
+.treeNode{
+  cursor: pointer;
+}
+
+.nodeHeader{
+  display: flex;
+  align-items: center;
+}
+
+.nodeHeader img{
+  margin-right: 0.5rem;
+}

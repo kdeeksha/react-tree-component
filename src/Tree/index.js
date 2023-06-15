@@ -1,0 +1,12 @@
+import Tree from "./Tree";
+
+import styles from "./tree.module.css";
+
+
+export default function TreeContainer({ list, level = 0 }) {
+  return (
+    <div className={styles.treeContainer}>
+      <Tree list={list} level={level} />
+    </div>
+  );
+}
